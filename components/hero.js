@@ -3,11 +3,7 @@ import MainCta from "./mainCta";
 
 function Hero() {
     
-  const navigation = [
-    { name: "Produkt", href: "#produkt" },
-    { name: "Features", href: "#features" },
-    { name: "Über uns", href: "#about" },
-  ];
+
 
   return (
     <div>
