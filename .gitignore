@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# large files etc...
+/public
+
 # testing
 /coverage
 
