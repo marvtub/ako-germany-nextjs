@@ -14,6 +14,8 @@
     "@fortawesome/react-fontawesome": "^0.1.16",
     "@headlessui/react": "^1.4.2",
     "@heroicons/react": "^1.0.5",
+    "framer-motion": "^5.5.5",
+    "kursor": "^0.1.6",
     "next": "12.0.7",
     "react": "17.0.2",
     "react-dom": "17.0.2"

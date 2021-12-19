@@ -9,14 +9,14 @@ import CustomerLogoSection from "../components/customerLogoSection"
 import AnfrageSection from "../components/anfrageSection";
 
 export default function Home() {
+
   return (
-    <div className="">
+    <div className="" >
       <Head>
         <title>AKO Germany | Temperaturüberwachung leicht gemacht</title>
         <meta name="description" content="AKO Germany bietet erstklassige " />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Hero />
       <CustomerLogoSection />
       <FeaturesSection />
