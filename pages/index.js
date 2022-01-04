@@ -8,6 +8,9 @@ import AboutUsSection from "../components/aboutUsSection"
 import CustomerLogoSection from "../components/customerLogoSection"
 import AnfrageSection from "../components/anfrageSection";
 
+
+
+
 export default function Home() {
 
   return (
@@ -18,12 +21,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <CustomerLogoSection />
+      {/* <CustomerLogoSection /> */}
       <FeaturesSection />
       <ProductPriceSections />
-      <AnfrageSection />
       <SpecSection />
-      <AboutUsSection />
+      <AnfrageSection />
+      {/* <AboutUsSection /> */}
       <Footer />
     </div>
   );

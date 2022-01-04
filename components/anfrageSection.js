@@ -1,11 +1,37 @@
 import Script from "next/script";
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
+import { useEffect, useState, useRef } from "react";
+import CustomForm from "../components/customForm"
 
-function AnfrageSection() {
+
+
+function AnfrageSection({api_key}) {
+  // const script_form = (
+  //   <Script
+  //     id={Date.now()}
+  //     src="https://webforms.pipedrive.com/f/loader"
+  //   ></Script>
+  // );
+  // const form_div = (
+  //   <div
+  //     key={Date.now()}
+  //     className="pipedriveWebForms"
+  //     data-pd-webforms="https://webforms.pipedrive.com/f/1FSnGnvBmskV2d9ta3bA1lJb0Ypegm4EvBHx1sWy2pt9OsVHaRNXL7DCBOADPfvFN"
+  //   ></div>
+  // );
+
+  // const [formLoader, setFormLoader] = useState(script_form);
+  // const [form, setForm] = useState(form_div);
+
+  // useEffect(() => {
+  //   setFormLoader(script_form);
+  //   setForm(form_div);
+  //   console.log("RERENDER");
+  // }, []);
+
   return (
     <div id="anfragen">
-                      <Script src="https://webforms.pipedrive.com/f/loader"></Script>
-
+      {/* {formLoader} */}
       <div id="kontakt">
         <section className="relative py-20 bg-slate-100">
           <div className="container mx-auto  px-4">
@@ -27,56 +53,54 @@ function AnfrageSection() {
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
-                    <a href="mailto:anfrage@ako-germany.de">
-
-                      <div className="flex items-center">
-                        <div>
-                          <span className=" font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-500 bg-rose-700 mr-3">
-                            <MailIcon
-                              width={18}
-                              height={18}
-                              className="text-white"
-                            />
-                          </span>
+                      <a href="mailto:anfrage@ako-germany.de">
+                        <div className="flex items-center">
+                          <div>
+                            <span className=" font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-500 bg-rose-700 mr-3">
+                              <MailIcon
+                                width={18}
+                                height={18}
+                                className="text-white"
+                              />
+                            </span>
+                          </div>
+                          <div>
+                            <h5 className="text-gray-500">
+                              anfrage@ako-germany.de{" "}
+                            </h5>
+                          </div>
                         </div>
-                        <div>
-                          <h5 className="text-gray-500">
-                            anfrage@ako-germany.de{" "}
-                          </h5>
-                        </div>
-                      </div>
                       </a>
                     </li>
                     <li className="py-2">
-                        <a href="tel:16546561">
-                      <div className="flex items-center">
-                        <div>
-                          <span className=" font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-500 bg-rose-700 mr-3">
-                          <PhoneIcon
-                              width={18}
-                              height={18}
-                              className="text-white"
-                            />
-                          </span>
+                      <a href="tel:16546561">
+                        <div className="flex items-center">
+                          <div>
+                            <span className=" font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-500 bg-rose-700 mr-3">
+                              <PhoneIcon
+                                width={18}
+                                height={18}
+                                className="text-white"
+                              />
+                            </span>
+                          </div>
+                          <div>
+                            <h4 className="text-gray-500">030 - 79846544</h4>
+                          </div>
                         </div>
-                        <div>
-                          <h4 className="text-gray-500">
-                            030 - 79846544
-                          </h4>
-                        </div>
-                      </div>
-                          </a>
+                      </a>
                     </li>
-                    
                   </ul>
-                 </div>
+                </div>
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4 ">
-                <div
+                {/* <div
+                  key={Date.now()}
                   className="pipedriveWebForms"
                   data-pd-webforms="https://webforms.pipedrive.com/f/1FSnGnvBmskV2d9ta3bA1lJb0Ypegm4EvBHx1sWy2pt9OsVHaRNXL7DCBOADPfvFN"
-                >
-                </div>
+                ></div> */}
+                {/* {form} */}
+                <CustomForm api_key={api_key} />
               </div>
             </div>
           </div>
