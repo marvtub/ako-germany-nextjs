@@ -9,6 +9,7 @@ function Header() {
     { name: "Features", href: "/#features" },
     { name: "Über uns", href: "/#about" },
   ];
+  const login = { name: "Login", href: "#" };
 
   return (
     <div>
@@ -92,10 +93,10 @@ function Header() {
                 ))}
               </div>
               <a
-                href="#"
+                href={login.href}
                 className="block w-full px-5 py-3 text-center font-medium text-rose-700 bg-gray-50 hover:bg-gray-100"
               >
-                Log in
+                {login.name}
               </a>
             </div>
           </Popover.Panel>

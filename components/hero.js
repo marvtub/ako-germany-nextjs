@@ -69,7 +69,7 @@ function Hero() {
                     Wartungsaufgaben und der Produktqualität liefern.
                   </p>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                    <MainCta href="/impressum" cta="Jetzt Anfragen" />
+                    <MainCta href="#anfragen" cta="Jetzt Anfragen" />
                     <div className="mt-3 sm:mt-0 sm:ml-3">
                       <a
                         href="#features"
