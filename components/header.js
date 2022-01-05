@@ -7,7 +7,7 @@ function Header() {
   const navigation = [
     { name: "Produkt", href: "/#produkt" },
     { name: "Features", href: "/#features" },
-    { name: "Über uns", href: "/#about" },
+    // { name: "Über uns", href: "/#about" },
   ];
   const login = { name: "Login", href: "#" };
 

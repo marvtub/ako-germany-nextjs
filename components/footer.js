@@ -5,7 +5,7 @@ import Link from 'next/link'
 function Footer() {
 
     const nLinks = [
-        { name: "Über Uns", href: "/#about" },
+        // { name: "Über Uns", href: "/#about" },
         {name: "Features", href: "/#features"},
         {name: "Produkt", href: "/#produkt"}
     ]
