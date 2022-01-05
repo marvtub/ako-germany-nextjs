@@ -21,7 +21,7 @@ function CustomerLogoSection() {
         </div>
         <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
           {logos.map((e) => (
-            <div className="pt-2 text-gray-400 dark:text-gray-400 md:w-1/12 w-2/12">
+            <div className="pt-2 text-gray-400 dark:text-gray-400 md:w-1/12 w-2/12" key={e.id}>
               <Image src={e.href}  quality="30" alt={e.href} placeholder="blur" key={e.id} />
             </div>
           ))}
