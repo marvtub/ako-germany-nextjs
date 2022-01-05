@@ -33,9 +33,9 @@ function CustomForm({ api_key }) {
   };
 
   return (
-    <form onSubmit={registerLead}>
+    <form onSubmit={registerLead }>
     {success ? <ModalSignUp show={success} /> : null}
-      <div className="form-group flex flex-col">
+      <div className="form-group flex flex-col bg-slate-50 p-8 rounded-lg">
         <label htmlFor="name" className="py-2">
           Ansprechpartner
         </label>
@@ -78,7 +78,6 @@ function CustomForm({ api_key }) {
           type="text"
           className="focus:ring-rose-700 focus:border-rose-700 shadow-md py-2 px-3 items-center rounded-lg border-gray-300"
         />
-      </div>
       <button
         type="submit"
         className="mt-8 shadow w-full flex items-center  justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-rose-700 hover:bg-rose-700 hover:rounded-lg  transition-all duration-300 md:py-4 md:text-lg md:px-10"
@@ -124,8 +123,9 @@ function CustomForm({ api_key }) {
         ) : (
           ""
         )}
-        Anmelden
+        Abschicken
       </button>
+      </div>
     </form>
   );
 }

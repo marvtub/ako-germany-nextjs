@@ -12,27 +12,27 @@ function FeaturesSection() {
 
   const features = [
     {
-      name: 'HACCP Konform',
+      name: 'Skalierbar',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Die effizienteste Lösung zur Überwachung von Temperatur und Luftfeuchtigkeit für Anlagen, die an mehreren Orten verteilt sind.',
       icon: GlobeAltIcon,
     },
     {
       name: 'Automatisierte Berichte',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Tägliche, wöchentliche und monatliche Berichte für interne Audits und Qualitätsbescheinigungen.',
       icon: ScaleIcon,
     },
     {
       name: 'Einfache & schnelle Installation',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Einfach zu installieren und einzurichten - ganz ohne Verkabelung.',
       icon: LightningBoltIcon,
     },
     {
-      name: 'Mobile Benachrichtigungen',
+      name: '24/7 Benachrichtigungen',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Alarme in Echtzeit per E-Mail. 24/7 Alarmsystem bei Überschreitung der festgelegten Grenzwerte.',
       icon: AnnotationIcon,
     },
   ]
@@ -83,8 +83,8 @@ const stagger = {
               Nie wieder Stift & Papier
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+            AKO macht eine kontinuierliche Datenaufzeichnung einfach. Drahtlos &
+jederzeit über die Cloud-Plattform verfügbar.
             </p>
           </div>
 

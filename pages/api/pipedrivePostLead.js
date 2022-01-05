@@ -2,7 +2,7 @@ export default async function handler(req, res){
     const api_token = process.env.API_TOKEN; // TO DO: MAke accessible serverside
     const company_domain = "projektig";
     // console.log(api_token)
-    console.log(req.body)
+    // console.log(req.body)
     const body = await req.body
     try{
         const pers = await fetch(
@@ -41,7 +41,7 @@ export default async function handler(req, res){
             }
           );
       
-          console.log(person);
+        //   console.log(person);
       
           res.status(200).json({data: {person: person, lead: resLead}})
     }catch(e){

@@ -1,11 +1,9 @@
 import Script from "next/script";
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
 import { useEffect, useState, useRef } from "react";
-import CustomForm from "../components/customForm"
+import CustomForm from "../components/customForm";
 
-
-
-function AnfrageSection({api_key}) {
+function AnfrageSection({ api_key }) {
   // const script_form = (
   //   <Script
   //     id={Date.now()}
@@ -44,12 +42,13 @@ function AnfrageSection({api_key}) {
                   <h3 className="text-base text-rose-700 mt-6 font-semibold tracking-wide uppercase">
                     Kontakt
                   </h3>
-                  <h3 className="text-4xl mt-2 font-semibold">
+                  <h3 className="text-4xl mt-2 font-extrabold">
                     Schicken Sie Uns <br /> Ihre Anfrage{" "}
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-500">
-                    Tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                    diam voluptua.
+                    Füllen Sie gerne das Formular aus & wir setzen uns zeitnah
+                    mit Ihnen in Verbindung. Alternativ können Sie uns auch über
+                    folgende Kontaktdaten erreichen:{" "}
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">

@@ -18,12 +18,16 @@ function SpecSection() {
         "1x AKO Sensor inkl. Batterie, 2x Dübel, Bedienungsanleitung",
     },
     {
+      name: "Titel",
+      description: "AKODATA ",
+    },
+    {
       name: "Bezeichnung",
       description: "AKO-59810 ",
     },
   ];
   const features2 = [
-    { name: "Temepratur-Messbereich", description: "-40°C bis 50°C" },
+    { name: "Temepratur-Messbereich", description: "-100°C bis 200°C mit externer Sonde" },
     {
       name: "Energie",
       description: "Batterie LiSOCI2,3.6 Vdc,6.5 Ah,  Hält bis zu 8 Jahren",
@@ -36,11 +40,15 @@ function SpecSection() {
     {
       name: "Paketinhalt",
       description:
-        "1x AKO Sensor inkl. Batterie, 2x Dübel, Bedienungsanleitung",
+        "1x AKO Sensor inkl. Batterie, 2x Dübel, Bedienungsanleitung, 3 Meter Sonde",
+    },
+    {
+      name: "Titel",
+      description: "AKODATA XTREM ",
     },
     {
       name: "Bezeichnung",
-      description: "AKO2",
+      description: "AKO-59840",
     },
   ];
   const features3 = [
@@ -94,14 +102,13 @@ function SpecSection() {
               Spezifikationen
             </h2>
             <p className="mt-4 text-gray-500">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum.
+            Der Temperatur- und Feuchtigkeitslogger mit drahtloser NB-IoT-Konnektivität ermöglicht die automatische Überwachung des Status der Produkte während des Transports und der Lagerung, mit Zugang zu Informationen über unsere Monitoring-Plattform in der Cloud.
             </p>
 
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
               {currProduct.map((feature) => (
+
+                (feature.name === "Titel" ? null :         
                 <div
                   key={feature.name}
                   className="border-t border-gray-200 pt-4"
@@ -111,6 +118,7 @@ function SpecSection() {
                     {feature.description}
                   </dd>
                 </div>
+                )
               ))}
             </dl>
           </div>

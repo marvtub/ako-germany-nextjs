@@ -20,14 +20,11 @@ function ProductPriceSection() {
                 <h3 className="text-base text-rose-700 mt-6 font-semibold tracking-wide uppercase">
                   Temperaturüberwachung
                 </h3>
-                <h3 className="text-4xl mt-2 font-semibold">
+                <h3 className="text-4xl mt-2 font-extrabold">
                   Ein Sensor, der für Qualität steht.
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-gray-500">
-                  Tempor invidunt ut labore et dolore magna aliquyam erat, sed
-                  diam voluptua. At vero eos et accusam et justo duo dolores et
-                  ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
-                  est Lorem ipsum dolor sit amet.
+                Der Temperatur- und Feuchtigkeitslogger mit drahtloser NB-IoT-Konnektivität ermöglicht die automatische Überwachung des Status der Produkte während des Transports und der Lagerung, mit Zugang zu Informationen über unsere Monitoring-Plattform in der Cloud.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
