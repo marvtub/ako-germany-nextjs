@@ -28,10 +28,10 @@ function Footer() {
                     Sie finden uns aktuell auf LinkedIn. Wir freuen uns auf Sie.
                     </h5>
                     <div className="mt-6 lg:mb-0 mb-6">
-                    
+                    <a href="https://www.linkedin.com/company/akogroup/" rel="noopener noreferrer" target="_blank">
                         <button className=" text-rose-800 hover:text-white hover:border-white transition duration-300 eas-in-out border-solid border-2 border-rose-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center outline-none focus:outline-none mr-2" type="button">
-                           <a href="https://www.linkedin.com/company/akogroup/" rel="noopener noreferrer" target="_blank"> <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
-                        </button>
+                            <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+                        </button></a>
                         {/* <button className=" text-rose-800 hover:text-white hover:border-white transition duration-300 eas-in-out border-solid border-2 border-rose-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center outline-none focus:outline-none mr-2" type="button">
                             <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
                         </button> */}
