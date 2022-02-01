@@ -25,16 +25,16 @@ function Footer() {
               
                     <h4 className="text-3xl font-semibold text-rose-600">Finden Sie uns auf Social Media!</h4>
                     <h5 className="text-lg mt-0 mb-2 text-rose-700">
-                    Sie finden uns auf LinkedIn & Facebook. Wir freuen uns auf Sie.
+                    Sie finden uns aktuell auf LinkedIn. Wir freuen uns auf Sie.
                     </h5>
                     <div className="mt-6 lg:mb-0 mb-6">
                     
                         <button className=" text-rose-800 hover:text-white hover:border-white transition duration-300 eas-in-out border-solid border-2 border-rose-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center outline-none focus:outline-none mr-2" type="button">
-                            <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+                           <a href="https://www.linkedin.com/company/akogroup/" rel="noopener noreferrer" target="_blank"> <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
                         </button>
-                        <button className=" text-rose-800 hover:text-white hover:border-white transition duration-300 eas-in-out border-solid border-2 border-rose-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center outline-none focus:outline-none mr-2" type="button">
+                        {/* <button className=" text-rose-800 hover:text-white hover:border-white transition duration-300 eas-in-out border-solid border-2 border-rose-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center outline-none focus:outline-none mr-2" type="button">
                             <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                        </button>
+                        </button> */}
                         
                        
                     </div>
@@ -58,7 +58,7 @@ function Footer() {
                         <ul className="list-unstyled">
                         {rLinks.map((prop) => (
 
-                        prop.ext ? (<li key={prop.name}><a key = {prop.name}target="_blank" rel="noreferrer"className="text-rose-700 hover:text-rose-800 font-semibold block pb-2 text-sm" href={prop.href}>{prop.name}</a></li>) :
+                        prop.ext ? (<li key={prop.name}><a key = {prop.name} target="_blank" rel="noreferrer" className="text-rose-700 hover:text-rose-800 font-semibold block pb-2 text-sm" href={prop.href}>{prop.name}</a></li>) :
                         (<li key={prop.name}>
                             <Link href={prop.href} ><a className="text-rose-700 hover:text-rose-800 font-semibold block pb-2 text-sm" >{prop.name}</a></Link>
                         </li>)

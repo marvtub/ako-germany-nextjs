@@ -52,7 +52,7 @@ function AnfrageSection({ api_key }) {
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
-                      <a href="mailto:anfrage@ako-germany.de">
+                      <a href="mailto:sales@ako-germany.de">
                         <div className="flex items-center">
                           <div>
                             <span className=" font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-500 bg-rose-700 mr-3">
@@ -65,14 +65,14 @@ function AnfrageSection({ api_key }) {
                           </div>
                           <div>
                             <h5 className="text-gray-500">
-                              anfrage@ako-germany.de{" "}
+                              sales@ako-germany.de{" "}
                             </h5>
                           </div>
                         </div>
                       </a>
                     </li>
                     <li className="py-2">
-                      <a href="tel:16546561">
+                      <a href="tel:+4917640217630">
                         <div className="flex items-center">
                           <div>
                             <span className=" font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-500 bg-rose-700 mr-3">
@@ -84,7 +84,7 @@ function AnfrageSection({ api_key }) {
                             </span>
                           </div>
                           <div>
-                            <h4 className="text-gray-500">030 - 79846544</h4>
+                            <h4 className="text-gray-500">+49 17640 217630</h4>
                           </div>
                         </div>
                       </a>

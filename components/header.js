@@ -9,7 +9,7 @@ function Header() {
     { name: "Features", href: "/#features" },
     // { name: "Über uns", href: "/#about" },
   ];
-  const login = { name: "Login", href: "#" };
+  const login = { name: "Login", href: "https://akonet.cloud/" };
 
   return (
     <div>
@@ -45,10 +45,10 @@ function Header() {
                 </Link>
               ))}
               <a
-                href="#"
+                href={login.href}
                 className="font-medium text-rose-700 hover:text-rose-500"
               >
-                Log in
+                {login.name}
               </a>
             </div>
           </nav>
@@ -93,7 +93,7 @@ function Header() {
                 ))}
               </div>
               <a
-                href={login.href}
+                href={login.href} target="_blank" rel="noreferrer"
                 className="block w-full px-5 py-3 text-center font-medium text-rose-700 bg-gray-50 hover:bg-gray-100"
               >
                 {login.name}

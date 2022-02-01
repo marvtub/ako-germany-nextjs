@@ -26,14 +26,14 @@ function ProductPriceSection() {
                 <p className="mt-4 text-lg leading-relaxed text-gray-500">
                 Der Temperatur- und Feuchtigkeitslogger mit drahtloser NB-IoT-Konnektivität ermöglicht die automatische Überwachung des Status der Produkte während des Transports und der Lagerung, mit Zugang zu Informationen über unsere Monitoring-Plattform in der Cloud.
                 </p>
-                <ul className="list-none mt-6 font-bold">
+                <ul className="list-none mt-6">
                   <li className="py-1 ">
                     <div className="flex items-center">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-500 bg-rose-700 mr-3"></span>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-800 bg-rose-700 mr-3"></span>
                       </div>
                       <div>
-                        <h4 className="text-gray-500">
+                        <h4 className="text-gray-800">
                           Innovative NBioT-Technologie
                         </h4>
                       </div>
@@ -42,10 +42,10 @@ function ProductPriceSection() {
                   <li className="py-1">
                     <div className="flex items-center">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-500 bg-rose-700 mr-3"></span>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-800 bg-rose-700 mr-3"></span>
                       </div>
                       <div>
-                        <h4 className="text-gray-500">
+                        <h4 className="text-gray-800">
                           Bis zu 8 Jahre Battielaufzeit
                         </h4>
                       </div>
@@ -54,10 +54,10 @@ function ProductPriceSection() {
                   <li className="py-1">
                     <div className="flex items-center">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-500 bg-rose-700 mr-3"></span>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-800 bg-rose-700 mr-3"></span>
                       </div>
                       <div>
-                        <h4 className="text-gray-500">
+                        <h4 className="text-gray-800">
                           Monitoring-Plattform in der Cloud
                         </h4>
                       </div>
@@ -66,10 +66,10 @@ function ProductPriceSection() {
                   <li className="py-1">
                     <div className="flex items-center">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-500 bg-rose-700 mr-3"></span>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-800 bg-rose-700 mr-3"></span>
                       </div>
                       <div>
-                        <h4 className="text-gray-500">
+                        <h4 className="text-gray-800">
                           inkl. 2 Jahre Konnektivität
                         </h4>
                       </div>
