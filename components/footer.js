@@ -11,9 +11,9 @@ function Footer() {
     ]
 
     const rLinks = [
-        {name: "Impressum", href: "/impressum"},
-        {name: "AGB's", href: "/agb"},
-        {name: "Datenschutz", href: "/datenschutz"},
+        {name: "Impressum", href: "https://www.ako.com/legal/", ext: true},
+        // {name: "AGB's", href: "/agb", ext: true},
+        {name: "Datenschutz", href: "https://www.ako.com/privacy/", ext: true},
         {name: "Kontakt", href: "/#kontakt"}
     ]
 
@@ -57,9 +57,11 @@ function Footer() {
                         <span className="block uppercase text-rose-600 text-sm font-semibold mb-3 mt-3">Rechtliches</span>
                         <ul className="list-unstyled">
                         {rLinks.map((prop) => (
-                        <li key={prop.name}>
+
+                        prop.ext ? (<li key={prop.name}><a key = {prop.name}target="_blank" className="text-rose-700 hover:text-rose-800 font-semibold block pb-2 text-sm" href={prop.href}>{prop.name}</a></li>) :
+                        (<li key={prop.name}>
                             <Link href={prop.href} ><a className="text-rose-700 hover:text-rose-800 font-semibold block pb-2 text-sm" >{prop.name}</a></Link>
-                        </li>
+                        </li>)
 
                             ))}
                         

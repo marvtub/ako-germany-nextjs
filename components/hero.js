@@ -13,24 +13,7 @@ function Hero() {
     },
   };
 
-  // const fadeInUp = {
-  //   initial: {
-  //     y: 60,
-  //     opacity: 0,
-  //   },
-  //   animate: {
-  //     y: 0,
-  //     opacity: 1,
-  //     transition: {
-  //       duration: 0.6,
-  //       ease: easing,
-  //     },
-  //   },
-  //   exit: {
-  //     opacity: 0,
-  //     y: 60,
-  //   },
-  // };
+
 
   return (
       <motion.div initial={{ opacity: 0, y: 30 }}
@@ -87,7 +70,7 @@ function Hero() {
               initial={{ opacity: 0, x: 800 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0,  }}
-              transition={{ duration: 0.4, delay:0.4 , ease: easing}} 
+              transition={{ duration: 0.5, delay:0.6 , ease: easing}} 
               className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 hidden md:block">
             <video
               className=" max-w-none object-cover z-10 background-size-cover"

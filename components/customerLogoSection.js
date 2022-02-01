@@ -11,7 +11,6 @@ function CustomerLogoSection() {
     { href: walmart, id: 3 },
     { href: nestle, id: 4 },
   ];
-  console.log(logos);
   return (
     <div className=" pt-10 pb-2 md:pb-5 bg-slate-0">
       <div className="flex flex-col justify-center mx-auto max-w-screen-2xl ">

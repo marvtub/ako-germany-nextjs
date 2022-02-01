@@ -7,7 +7,6 @@ function CustomForm({ api_key }) {
   const [success, setSuccess] = useState(false)
 
   useEffect(() => {
-    console.log("SUCCESS: ", success)
   }, [success])
 
   const registerLead = async (event) => {
