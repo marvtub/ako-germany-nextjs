@@ -58,7 +58,7 @@ function Footer() {
                         <ul className="list-unstyled">
                         {rLinks.map((prop) => (
 
-                        prop.ext ? (<li key={prop.name}><a key = {prop.name}target="_blank" className="text-rose-700 hover:text-rose-800 font-semibold block pb-2 text-sm" href={prop.href}>{prop.name}</a></li>) :
+                        prop.ext ? (<li key={prop.name}><a key = {prop.name}target="_blank" rel="noreferrer"className="text-rose-700 hover:text-rose-800 font-semibold block pb-2 text-sm" href={prop.href}>{prop.name}</a></li>) :
                         (<li key={prop.name}>
                             <Link href={prop.href} ><a className="text-rose-700 hover:text-rose-800 font-semibold block pb-2 text-sm" >{prop.name}</a></Link>
                         </li>)
