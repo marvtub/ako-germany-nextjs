@@ -7,6 +7,7 @@ import ProductPriceSections from "../components/productPriceSection";
 import AboutUsSection from "../components/aboutUsSection"
 import CustomerLogoSection from "../components/customerLogoSection"
 import AnfrageSection from "../components/anfrageSection";
+import TestimonialSection from "../components/testimonialSection";
 
 
 
@@ -27,6 +28,7 @@ export default function Home() {
       <SpecSection />
       <AnfrageSection />
       {/* <AboutUsSection /> */}
+      <TestimonialSection />
       <Footer />
     </div>
   );

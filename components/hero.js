@@ -87,13 +87,13 @@ function Hero() {
               />
             </video>
           </motion.div>
-          <div className="md:hidden">
+          {/* <div className="md:hidden">
             <img
               className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
               src="https://images.pexels.com/photos/3735169/pexels-photo-3735169.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
               alt=""
             />
-          </div>
+          </div> */}
         </div>
       </motion.div>
   );

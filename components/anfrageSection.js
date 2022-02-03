@@ -34,7 +34,7 @@ function AnfrageSection({ api_key }) {
         <section className="relative py-20 bg-slate-100">
           <div className="container mx-auto  px-4">
             <div className="items-top flex flex-wrap">
-              <div className="md:w-6/12 ml-auto mr-auto lg:ml-0 px-4 pb-10">
+              <div className="md:w-6/12 mx-auto lg:ml-0  pb-10">
                 <div className="md:pr-12">
                   {/* <div className="text-rose-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-200">
                     <GiftIcon />                 
@@ -50,7 +50,7 @@ function AnfrageSection({ api_key }) {
                     mit Ihnen in Verbindung. Alternativ können Sie uns auch über
                     folgende Kontaktdaten erreichen:{" "}
                   </p>
-                  <ul className="list-none mt-6">
+                  <ul className="list-none mt-6 px-4">
                     <li className="py-2">
                       <a href="mailto:sales@ako-germany.de">
                         <div className="flex items-center">
@@ -64,15 +64,17 @@ function AnfrageSection({ api_key }) {
                             </span>
                           </div>
                           <div>
-                            <h5 className="text-gray-500">
+                          <h3 className="text-gray-800 text-lg font-medium">E-Mail</h3>
+
+                            <h4 className="text-gray-500">
                               sales@ako-germany.de{" "}
-                            </h5>
+                            </h4>
                           </div>
                         </div>
                       </a>
                     </li>
                     <li className="py-2">
-                      <a href="tel:+4917640217630">
+                      <a href="tel:03362 8891619">
                         <div className="flex items-center">
                           <div>
                             <span className=" font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-500 bg-rose-700 mr-3">
@@ -84,7 +86,8 @@ function AnfrageSection({ api_key }) {
                             </span>
                           </div>
                           <div>
-                            <h4 className="text-gray-500">+49 17640 217630</h4>
+                          <h3 className="text-gray-800 text-lg font-medium">Telefon</h3>
+                            <h4 className="text-gray-500">03362 8891619</h4>
                           </div>
                         </div>
                       </a>
@@ -92,13 +95,8 @@ function AnfrageSection({ api_key }) {
                   </ul>
                 </div>
               </div>
-              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 ">
-                {/* <div
-                  key={Date.now()}
-                  className="pipedriveWebForms"
-                  data-pd-webforms="https://webforms.pipedrive.com/f/1FSnGnvBmskV2d9ta3bA1lJb0Ypegm4EvBHx1sWy2pt9OsVHaRNXL7DCBOADPfvFN"
-                ></div> */}
-                {/* {form} */}
+              <div className="w-full md:w-5/12 ml-auto mr-auto px-0 ">
+                
                 <CustomForm api_key={api_key} />
               </div>
             </div>

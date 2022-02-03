@@ -5,14 +5,14 @@ function ProductPriceSection() {
       <section className="relative py-20 bg-slate-50">
         <div className="container mx-auto px-4">
           <div className="items-center flex flex-wrap">
-            <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <div className="w-full lg:w-5/12 ml-auto mr-auto lg:px-4 pb-2 lg:pb-0">
               <img
                 alt="..."
                 className="max-w-full rounded-lg shadow-lg"
-                src="https://images.pexels.com/photos/2479833/pexels-photo-2479833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                src="/AKO Illustration.png"
               />
             </div>
-            <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div className="w-full lg:w-5/12 ml-auto mr-auto px-4">
               <div className="md:pr-12">
                 {/* <div className="text-rose-700 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-200">
                     <GiftIcon />                 
