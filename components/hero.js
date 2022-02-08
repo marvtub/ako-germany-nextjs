@@ -82,8 +82,8 @@ function Hero() {
               poster="https://images.pexels.com/photos/3735169/pexels-photo-3735169.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             >
               <source
-                src="/SEUR-Testimonial.mov"
-                type="video/mov"
+                src="/SEUR-Testimonial.mp4"
+                type="video/mp4"
               />
             </video>
           </motion.div>
