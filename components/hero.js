@@ -82,8 +82,8 @@ function Hero() {
               poster="https://images.pexels.com/photos/3735169/pexels-photo-3735169.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
             >
               <source
-                src="/WhatsApp Video 2021-12-03 at 16.39.32.mp4"
-                type="video/mp4"
+                src="/SEUR-Testimonial.mov"
+                type="video/mov"
               />
             </video>
           </motion.div>
