@@ -20,6 +20,7 @@ export default function Home() {
         <title>AKO Germany | Temperaturüberwachung leicht gemacht</title>
         <meta name="description" content="AKO Germany bietet erstklassige Technologien zur automatischen Überwachung von Produkten während der Lagerung und des Transports." />
         <link rel="icon" href="/AKO-Germany-icon.png" sizes="32x32" />
+        <meta name="google-site-verification" content="sUA8zEFzZecCim7dAjfPrlKv4C5tofZBLuGLkRCfNys" />
       </Head>
       <Hero />
       <CustomerLogoSection />
