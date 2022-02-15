@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import mcdonalds from "../public/mcdonalds.png"
 import walmart from "../public/walmart.png"
-import engie from "../public/engie.png"
+import seur from "../public/SEUR.png"
 import nestle from "../public/nestle.png"
 
 function CustomerLogoSection() {
   const logos = [
-    { href: engie, id: 1 },
+    { href: seur, id: 1 },
     { href: mcdonalds, id: 2 },
     { href: walmart, id: 3 },
     { href: nestle, id: 4 },

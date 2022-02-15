@@ -102,7 +102,7 @@ function Footer() {
             <div className="text-sm text-rose-700 font-semibold py-1">
               Copyright ©{" "}
               <span id="get-current-year">
-                2021 AKO Germany <br /> Built by{" "}
+                2022 AKO Germany <br /> Built by{" "}
               </span>
               <a
                 href="https://www.marvinaziz.de"
