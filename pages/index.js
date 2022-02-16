@@ -21,6 +21,19 @@ export default function Home() {
         <meta name="description" content="AKO Germany bietet erstklassige Technologien zur automatischen Überwachung von Produkten während der Lagerung und des Transports." />
         <link rel="icon" href="/AKO-Germany-icon.png" sizes="32x32" />
         <meta name="google-site-verification" content="sUA8zEFzZecCim7dAjfPrlKv4C5tofZBLuGLkRCfNys" />
+        <link
+          rel="canonical"
+          href="https://www.ako-germany.de"
+          key="canonical"
+        />
+          <meta
+          property="og:description"
+          content="AKO Germany bietet erstklassige Technologien zur automatischen Überwachung von Produkten während der Lagerung und des Transports."
+        />
+        <meta
+          property="og:image"
+          content="/Logo-AKO-Group-2.png"
+        />
       </Head>
       <Hero />
       <CustomerLogoSection />

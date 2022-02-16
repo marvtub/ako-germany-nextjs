@@ -1,2 +1,5 @@
 User-agent: *
-Sitemap: https://ako-germany.de/sitemap.xml
+Allow: /
+
+Sitemap: https://www.ako-germany.de/sitemap.xml
+Sitemap: http://ako-germany.de/sitemap.xml

@@ -22,7 +22,7 @@ function Header() {
             <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div className="flex items-center justify-between w-full md:w-auto">
                 <span className="sr-only">Workflow</span>
-                <Link href="/">
+                <Link href="/" passHref>
                   <img
                     className="h-8 w-auto sm:h-10 cursor-pointer"
                     src="https://www.ako.com/wp-content/uploads/2020/01/Logo-AKO-Group-2.png"
@@ -38,7 +38,7 @@ function Header() {
             </div>
             <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
               {navigation.map((item) => (
-                <Link key={item.name} href={item.href}>
+                <Link key={item.name} href={item.href} passHref>
                   <a className="font-medium text-gray-500 hover:text-gray-900 link link-underline link-underline-black">
                     {item.name}
                   </a>
