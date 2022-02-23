@@ -45,7 +45,7 @@ function Footer() {
                         </button> */}
             </div>
             <div className="anuga-tec text-sm flex  items-center space-x-8 text-rose-600 font-semibold mt-8">
-            <a href="https://www.anugafoodtec.de/" target="_blank" rel="noreferrer"><img className="h-14 w-auto" src={"/anuga-foodtec.png"} /></a>
+            <a href="https://www.anugafoodtec.de/" target="_blank" rel="noreferrer"><img className="h-14 w-auto" alt="Anuga Logo" src={"/anuga-foodtec.png"} /></a>
             <span><a href="https://www.anugafoodtec.de/" target="_blank" rel="noreferrer">Wir stellen auf der Anuga FoodTec 2022 aus!</a></span>
             
           </div>
