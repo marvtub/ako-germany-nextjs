@@ -44,6 +44,11 @@ function Footer() {
                             <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
                         </button> */}
             </div>
+            <div className="anuga-tec text-sm flex  items-center space-x-8 text-rose-600 font-semibold mt-8">
+            <a href="https://www.anugafoodtec.de/" target="_blank" rel="noreferrer"><img className="h-14 w-auto" src={"/anuga-foodtec.png"} /></a>
+            <span><a href="https://www.anugafoodtec.de/" target="_blank" rel="noreferrer">Wir stellen auf der Anuga FoodTec 2022 aus!</a></span>
+            
+          </div>
           </div>
           <div className="w-full lg:w-6/12 lg:px-4 ">
             <div className="flex flex-wrap items-top mb-6">
@@ -92,13 +97,17 @@ function Footer() {
                     )
                   )}
                 </ul>
+                
               </div>
+              
             </div>
+            
           </div>
         </div>
         <hr className="my-6 border-rose-800" />
         <div className="flex flex-wrap items-center md:justify-between justify-center">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
+          
             <div className="text-sm text-rose-700 font-semibold py-1">
               Copyright ©{" "}
               <span id="get-current-year">

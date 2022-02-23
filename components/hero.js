@@ -1,6 +1,9 @@
 import HeaderNav from "./header";
 import MainCta from "./mainCta";
 import { motion } from "framer-motion";
+import YoutubeEmbed from "./youtubeVideo";
+import ReactPlayer from "react-player/lazy";
+import { useEffect} from "react"
 
 function Hero() {
   const easing = [0.6, -0.05, 0.01, 0.99];
@@ -38,7 +41,7 @@ function Hero() {
               <HeaderNav key={"2308"} />
               <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                 <div className="sm:text-center lg:text-left">
-                  <h1  className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                  <h1  className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl maintagline">
                     <motion.span key={"whatev1"} className="block xl:inline hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-blue-100 hover:to-blue-900 transition-colors duration-300">
                       Effiziente Kühlketten
                     </motion.span>{" "}
@@ -86,6 +89,33 @@ function Hero() {
                 type="video/mp4"
               />
             </video>
+            {/* <YoutubeEmbed embedId="rokGy0huYEA" /> */}
+            {/* <div className="video-responsive">
+
+            <ReactPlayer
+              url={"https://youtu.be/rpkoCmnTpFE?controls=0"}
+              playing={true}
+              muted={true}
+              allow='autoplay; encrypted-media; controls=0'
+              width={"100%"}
+              controls={false}
+              height={"100%"}
+              loop={true}
+            />
+              </div> */}
+            {/* <div className="video-responsive">
+
+            <ReactPlayer
+              url={"https://www.youtube.com/embed/rokGy0huYEA?controls=0&showinfo=0&autohide=1"}
+              playing={true}
+              muted={true}
+              allow='autoplay; encrypted-media; controls=0'
+              width={853}
+              controls={0}
+              height={480}
+            />
+              </div> */}
+
           </motion.div>
           {/* <div className="md:hidden">
             <img
@@ -95,8 +125,11 @@ function Hero() {
             />
           </div> */}
         </div>
+  
       </motion.div>
   );
 }
 
 export default Hero;
+
+

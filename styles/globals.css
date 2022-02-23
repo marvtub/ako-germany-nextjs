@@ -37,3 +37,35 @@ a {
   background-position: 0 100%
 }
 
+.video-responsive {
+  overflow: hidden;
+  /* padding-bottom: 56.25%; */
+  position: relative;
+  height: 100% !important;
+}
+
+/* .video-responsive video {
+  left: 0;
+  top: 0;
+  height: 100% !important;
+  width: 100% !important;
+  position: absolute;
+}
+
+div.html5-video-container {
+  height: 100% !important;
+}
+
+ video.video-stream.html5-main-video {
+  object-fit: cover !important;
+   height:100% !important;
+   top:0 !important;
+}
+
+.ytp-chrome-top.ytp-show-cards-title {
+  display: none !important;
+}
+
+a.ytp-watermark.yt-uix-sessionlink {
+  display: none !important;
+} */
