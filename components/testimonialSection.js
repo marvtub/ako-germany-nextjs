@@ -34,10 +34,14 @@ function TestimonialSection() {
               </div>
             </div>
             <div className="w-full max-w-4xl mx-auto lg:px-4 pt-8 lg:pb-0">
-              <ReactPlayer url="https://youtu.be/HiCog-eI9fc" type="video/mp4" width={853}
+              <ReactPlayer url="https://youtu.be/HiCog-eI9fc" 
+              type="video/mp4" 
+              width={853}
               controls={true}
               height={480}
-              loop={true} playing={true} muted={true} loop={true}/>
+               playing={true} 
+               muted={true} 
+               loop={true}/>
             </div>
           </div>
 
