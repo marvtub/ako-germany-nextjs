@@ -1,9 +1,7 @@
 import HeaderNav from "./header";
 import MainCta from "./mainCta";
 import { motion } from "framer-motion";
-import YoutubeEmbed from "./youtubeVideo";
-import ReactPlayer from "react-player/lazy";
-import { useEffect} from "react"
+
 
 function Hero() {
   const easing = [0.6, -0.05, 0.01, 0.99];
