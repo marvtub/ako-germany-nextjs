@@ -22,8 +22,8 @@ function SpecSection() {
       description: " Basic ",
     },
     {
-      name: "Jährlicher Nutzungspreis pro Sensor",
-      description: "49,95 €",
+      name: "Bezeichnung",
+      description: "AKO-59810",
     },
   ];
 
@@ -48,8 +48,8 @@ function SpecSection() {
       description: " Ultra Range ",
     },
     {
-      name: "Jährlicher Nutzungspreis pro Sensor",
-      description: "59.95 €",
+      name: "Bezeichnung",
+      description: "AKO 59811",
     },
   ];
   const features3 = [
@@ -73,8 +73,8 @@ function SpecSection() {
       description: " Extra Sensor ",
     },
     {
-      name: "Jährlicher Nutzungspreis pro Sensor",
-      description: "59.95 €",
+      name: "Bezeichnung",
+      description: "AKO 59820",
     },
   ];
   const features4 = [
@@ -101,8 +101,8 @@ function SpecSection() {
       description: " Range + Extra Sensor ",
     },
     {
-      name: "Jährlicher Nutzungspreis pro Sensor",
-      description: "79.95 €",
+      name: "Bezeichnung",
+      description: "AKO-59821",
     },
   ];
   const features5 = [
@@ -126,8 +126,8 @@ function SpecSection() {
       description: " Extreme ",
     },
     {
-      name: "Jährlicher Nutzungspreis pro Sensor",
-      description: "79.95 €",
+      name: "Bezeichnung",
+      description: "AKO-59840",
     },
   ];
   
