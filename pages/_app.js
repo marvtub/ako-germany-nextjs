@@ -22,11 +22,11 @@ function MyApp({ Component, pageProps }) {
 
   //Cookie Consent Funktionalität
   function handleAcceptCookie(){
-    console.log("Trying to GA initialize!" + " . " + process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID)
+    // console.log("Trying to GA initialize!" + " . " + process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID)
 
     if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID) {
       initGA(process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID);
-      console.log("GA initialized!" + " . " + process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID)
+      // console.log("GA initialized!" + " . " + process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID)
     }
   };
 
@@ -41,7 +41,7 @@ function MyApp({ Component, pageProps }) {
     <AnimatePresence exitBeforeEnter={true}>
       <Component {...pageProps} />
       <CookieConsent
-        key="whatev"
+        key="cookie-banner"
         location="bottom"
         buttonText="Alle akzeptieren"
         cookieName="ako-germany-cookie"
