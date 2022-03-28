@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }) {
 
     if (process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID) {
       initGA(process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID);
-      // console.log("GA initialized!" + " . " + process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID)
+      console.log("GA initialized!")
     }
   };
 
