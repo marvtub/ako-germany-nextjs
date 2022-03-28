@@ -7,6 +7,7 @@ function Footer() {
     // { name: "Über Uns", href: "/#about" },
     { name: "Features", href: "/#features" },
     { name: "Produkt", href: "/#produkt" },
+    { name: "AKO International", href: "https://www.ako.com/", ext: true },
   ];
 
   const rLinks = [
@@ -58,12 +59,18 @@ function Footer() {
                 </span>
                 <ul className="list-unstyled">
                   {nLinks.map((prop) => (
+                    
                     <li key={prop.name}>
-                      <Link href={prop.href}>
+                    {prop.ext ? (<Link href={prop.href} >
+                        <a className="text-rose-700 hover:text-rose-800 font-semibold block pb-2 text-sm" target="_blank" rel="noreferrer">
+                          {prop.name}
+                        </a>
+                      </Link>) : (<Link href={prop.href}>
                         <a className="text-rose-700 hover:text-rose-800 font-semibold block pb-2 text-sm">
                           {prop.name}
                         </a>
-                      </Link>
+                      </Link>)}
+                     
                     </li>
                   ))}
                 </ul>
