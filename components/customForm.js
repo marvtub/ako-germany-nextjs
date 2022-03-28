@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ModalSignUp from "../components/modalSignUp";
 import {useEffect} from "react"
+import Image from "next/image"
 
 function CustomForm({ api_key }) {
   const [loading, setLoading] = useState(false);
@@ -124,6 +125,15 @@ function CustomForm({ api_key }) {
         )}
         Abschicken
       </button>
+      </div>
+      <div className="calendlyLink justify-center text-center flex flex-col text-rose-800 underline lg:mt-4 mt-8">
+      
+          <a href="https://calendly.com/michael-bruck-ako" target="_blank" rel="noopener noreferrer">
+          <img src="/Calendly-Logo.png" className="calendly w-14 inline" alt="calendly_logo"/>
+          <span>
+             Direkt einen Termin vereinbaren
+             </span>
+          </a>
       </div>
     </form>
   );
