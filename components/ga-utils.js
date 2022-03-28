@@ -4,8 +4,8 @@ export const initGA = (id) => {
 
 //   if (process.env.NODE_ENV === "production") {
     ReactGA.initialize(id);
-
-      ReactGA.send("pageview");
+    ReactGA.set({ anonymizeIp: true });
+    ReactGA.send("pageview");
 
   
 };
