@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }) {
         buttonStyle={{ color: "rgb(248 250 252)", backgroundColor: "#007900", borderRadius:"5px", padding: "10px 20px"}}
         expires={150}
         declineButtonText="Nur notwendige akzeptieren"
-        declineButtonStyle={{ color: "rgb(190 18 60)", backgroundColor:"rgb(255 228 230 / 0%)",borderRadius:"5px", padding: "10px 20px"}}
+        declineButtonStyle={{ color: "rgb(190 18 60)", backgroundColor:"rgb(255 228 230 / 0%)",borderRadius:"5px", padding: "10px 0px"}}
         enableDeclineButton
         onDecline={() => {
           handleDeclineCookie;
