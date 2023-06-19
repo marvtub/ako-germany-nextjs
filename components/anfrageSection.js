@@ -1,6 +1,6 @@
 import Script from "next/script";
 import { MailIcon, PhoneIcon } from "@heroicons/react/outline";
-import { useEffect, useState, useRef } from "react";
+// import { useEffect, useState, useRef } from "react";
 import CustomForm from "../components/customForm";
 
 function AnfrageSection({ api_key }) {
@@ -74,7 +74,7 @@ function AnfrageSection({ api_key }) {
                       </a>
                     </li>
                     <li className="py-2">
-                      <a href="tel:03362 8891619">
+                      <a href="tel:+491608490050">
                         <div className="flex items-center">
                           <div>
                             <span className=" font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-500 bg-rose-700 mr-3">
@@ -87,7 +87,7 @@ function AnfrageSection({ api_key }) {
                           </div>
                           <div>
                           <h3 className="text-gray-800 text-lg font-medium">Telefon</h3>
-                            <h4 className="text-gray-500">03362 8891619</h4>
+                            <h4 className="text-gray-500">+49 1608490050</h4>
                           </div>
                         </div>
                       </a>

@@ -118,13 +118,13 @@ function Footer() {
             <div className="text-sm text-rose-700 font-semibold py-1">
               Copyright ©{" "}
               <span id="get-current-year">
-                2022 AKO Germany <br /> Built by{" "}
+                2023 AKO Germany <br /> Built by{" "}
               </span>
               <a
-                href="https://www.marvinaziz.de"
+                href="https://www.m2a.digital"
                 className="text-rose-600 hover:text-white transition duration-300 eas-in-out link link-underline link-underline-black"
               >
-                Marvin Aziz
+                Marvin Aziz @ M2A Digital
               </a>
               .
             </div>

@@ -126,7 +126,7 @@ function CustomForm({ api_key }) {
         Abschicken
       </button>
       </div>
-      <div className="calendlyLink justify-center text-center flex flex-col text-rose-800 underline lg:mt-4 mt-8">
+      {/* <div className="calendlyLink justify-center text-center flex flex-col text-rose-800 underline lg:mt-4 mt-8">
       
           <a href="https://calendly.com/michael-bruck-ako" target="_blank" rel="noopener noreferrer">
           <img src="/Calendly-Logo.png" className="calendly w-14 inline" alt="calendly_logo"/>
@@ -134,7 +134,7 @@ function CustomForm({ api_key }) {
              Direkt einen Termin vereinbaren
              </span>
           </a>
-      </div>
+      </div> */}
     </form>
   );
 }
